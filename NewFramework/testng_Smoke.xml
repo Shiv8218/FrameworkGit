@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <groups>
+        <run>
+            <include name="Smoke"/>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="Tests.TestUtils.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/demo1/IdeaProjects/StatusNeoPractice/NewFramework">
+        <classes>
+            <class name="Tests.AndroidTests.wdSignUpTest">
+
+            </class>
+
+        </classes>
+    </test>
+</suite>
